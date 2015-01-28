@@ -57,10 +57,17 @@ body {
 }
 
 a {
-  color: #d5000d;
+  color: #666;
 }
 a:hover {
-  color: #c5000c;
+  color: #444;
+}
+
+p a {
+  color: #888;
+}
+p a:hover {
+  color: #666;
 }
 
 header {
