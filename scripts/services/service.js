@@ -14,7 +14,7 @@ appService.factory('$common', function ($http, $state, $q, $uibModal) {
 
         getBaseParams: function () {
             return {
-                'url': 'http://localhost:63342/webSiteApp/',
+                'url': 'http://localhost/',
                 /*'url' : 'http://www.dfzhgx.com/',*/
                 'project': 'owWeb'
             };
