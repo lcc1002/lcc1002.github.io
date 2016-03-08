@@ -49,7 +49,7 @@ appDirective.directive("sideNavLeft", ["$timeout", function (timer) {
         controller: ["$scope", "$rootScope", function ($scope, $rootScope) {
 
         }],
-        templateUrl: 'webSiteApp/modules/common/views/sideNavLeft.html',
+        templateUrl: 'modules/common/views/sideNavLeft.html',
         link: function ($scope, elem, attr) {
             timer(function () {
                 $scope.$watch(function () {

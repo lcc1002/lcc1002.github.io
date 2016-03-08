@@ -7,22 +7,22 @@ indexRoute.config(
             $stateProvider
                     .state('index', {
                         url: '/index.htm',
-                        templateUrl: 'webSiteApp/modules/index/views/index.html',
+                        templateUrl: 'modules/index/views/index.html',
                         controller: 'indexCtrl',
                     })
                     .state('index-blog', {
                         url: '/index/blog.htm',
-                        templateUrl: 'webSiteApp/modules/index/views/blog.html',
+                        templateUrl: 'modules/index/views/blog.html',
                         controller: 'indexCtrl',
                     })
                     .state('index-project', {
                         url: '/index/project.htm',
-                        templateUrl: 'webSiteApp/modules/index/views/project.html',
+                        templateUrl: 'modules/index/views/project.html',
                         controller: 'indexCtrl',
                     })
                     .state('index-resume', {
                         url: '/index/resume.htm',
-                        templateUrl: 'webSiteApp/modules/index/views/resume.html',
+                        templateUrl: 'modules/index/views/resume.html',
                         controller: 'indexCtrl',
                     });
         });
